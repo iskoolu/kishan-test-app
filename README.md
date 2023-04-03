@@ -1,16 +1,23 @@
 # kishan-test-app
-This is a sample Next.js app that demonstrates how to build a basic web application using Next.js. The app includes the following features:
+This is a Next.js app that demonstrates how to build a web application using Next.js. The app includes the following features:
 
-Routing with Next.js
-Server-side rendering with Next.js
-CSS styling with Tailwind CSS
+-Routing with Next.js
+-Server-side rendering with Next.js
+-CSS styling with Tailwind CSS
 
-Getting Started
+#Getting Started
 To get started, first clone this repository:
 
-git clone https://github.com/iskoolu/alkimi-test-app.git
-cd alkimi-test-app
+git clone (https://github.com/iskoolu/kishan-test-app.git)
+cd kishan-test-app
 Then install the dependencies and start the development server:
+
+#dependencies
+install TAilwind for nextjs using this command lines:
+-npm install -D tailwindcss postcss autoprefixer
+-npx tailwindcss init -p
+-Configure your template paths
+-Add the Tailwind directives to your CSS
 
 npm install
 npm run dev
@@ -30,53 +37,42 @@ Lints the code using ESLint.
 Folder Structure
 The project has the following folder structure:
 
-├── public/
-│   └── bchain.png
+`--public
+  --bchain.png
+  -- ....
+'--src
+  `--Components
+     --Chapter.js
+     --Footer.js
+     --Layout.js
+     --Navbar.js
+     --Services.js
+  `--customhook
+      --useOutsideClick.js
+  `--pages
+    `--api
+      -- hello.js
+    --app.js
+    --document.js
+    --Environment.js
+    --Faq.js
+    --index.js
+    --Menu.js
+  `--styles
+     --global.css
+     --home.module.css
+  `--staticdata
+     --appContents.js
+   `--styled-components
+     --Accordian.js
+     --Burgermenu.js
+     --DropDownlink.js
 
-├── pages/
-│   ├── EnvStatement.tsx
-│   ├── Faq.tsx
-│   ├── index.tsx
-│   ├── Menu.tsx
-│   ├── Nft.tsx
-│   ├── Projects.tsx
-│   └── ├── components/
-│       ├── Footer.tsx
-│       ├── Header.tsx
-│       ├── Layout.tsx
-│       ├── SectionBox.tsx
-│       └── Services.tsx
-├── styles/
-│   ├── globals.css
-│   └── Home.module.css
-├── styled-components/
-│   ├── Accordion.css
-│   ├── BurgerMenu.css
-│   └── DropDownLink.css
-├── staticdata/
-│   └── appContents.tsx
-├── public/
-│   ├── favicon.ico
-│   ├── image.png
-│   └── ...
-├── next.config.js
-├── package.json
-└── ...
-components/ contains all the React components used in the app.
-pages/ contains all the Next.js pages used in the app.
-styles/ contains all the CSS styles used in the app.
-public/ contains all the public assets used in the app, such as images and favicon.
-styled-components/ contains all the styled components like dropdown, etc.
-staticdata/ contains all the labels and contents used in the app.
-customhooks/ contains the custom hooks which created with react and typescript used in the app.
-Styled Components
+These are the Components and Style that have been used to create the Modal App using Next.js 
+
 In this app, did not use any third party styled components packages like mui, etc. Instead of that we created our own styled components with Tailwind CSS. Available styled components below,
 
-BurgerMenu.js is the Menu Icon placed in NavBar. When it's clicked it will change to close symbol(X).
-DropDownLink.js is combine with dropdown menu and NextJs link components. Pass pathname and dropdown label as props.
-Accordion.js is have pass title and content as props. It will return collapse style component.
-Custom Hooks
-It was created to reuse in many components, this can be imported in the component to leverage the feature,
+The Styled Component in the Cna be Reused as manu=y times 
 
 useOutsideClick.js is used for detect the click event outside of the element. Add ref with useRef hook to which element is wants to detect and pass the function which is what action to be perform if event is detected.
 Deploying the App
