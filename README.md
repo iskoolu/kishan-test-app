@@ -37,36 +37,39 @@ Lints the code using ESLint.
 Folder Structure
 The project has the following folder structure:
 
-|--public
-  |--bchain.png
-  |-- ....
-|--src
-  |--Components
-     |--Chapter.js
-     |--Footer.js
-     |--Layout.js
-     |--Navbar.js
-     |--Services.js
-  |--customhook
-      |--useOutsideClick.js
-  |--pages
-    |--api
-      |-- hello.js
-    |--app.js
-    |--document.js
-    |--Environment.js
-    |--Faq.js
-    |--index.js
-    |--Menu.js
-  |--styles
-     |--global.css
-     |--home.module.css
-  |--staticdata
-     |--appContents.js
-   |--styled-components
-     |--Accordian.js
-     |--Burgermenu.js
-     |--DropDownlink.js
+project
+├── public
+│   ├── bchain.png
+│   └── ...
+├── src
+│   ├── Components
+│   │   ├── Chapter.js
+│   │   ├── Footer.js
+│   │   ├── Layout.js
+│   │   ├── Navbar.js
+│   │   └── Services.js
+│   ├── customhook
+│   │   └── useOutsideClick.js
+│   ├── pages
+│   │   ├── api
+│   │   │   └── hello.js
+│   │   ├── app.js
+│   │   ├── document.js
+│   │   ├── Environment.js
+│   │   ├── Faq.js
+│   │   ├── index.js
+│   │   └── Menu.js
+│   ├── styles
+│   │   ├── global.css
+│   │   └── home.module.css
+│   ├── staticdata
+│   │   └── appContents.js
+│   └── styled-components
+│       ├── Accordian.js
+│       ├── Burgermenu.js
+│       └── DropDownlink.js
+└── README.md
+
 
 These are the Components and Style that have been used to create the Modal App using Next.js 
 
