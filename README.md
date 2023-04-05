@@ -64,12 +64,15 @@ project
 │   │   └── home.module.css
 │   ├── staticdata
 │   │   └── appContents.js
-│   └── styled-components
-│       ├── Accordian.js
-│       ├── Burgermenu.js
-│       └── DropDownlink.js
+│   
 └── README.md
 
+In this project we have used third party libray material ui 
+for implementing this run this command
+npm i @mui/material
+npm i @mui/icons
+
+From this library we have used Accordion and MenuOpen Icon For this Project and styles are used by Tailwind css
 
 These are the Components and Style that have been used to create the Modal App using Next.js 
 
