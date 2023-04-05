@@ -12,7 +12,7 @@ git clone (https://github.com/iskoolu/kishan-test-app.git)
 cd kishan-test-app
 Then install the dependencies and start the development server:
 
-# dependencies
+# Dependencies
 install TAilwind for nextjs using this command lines:
 -npm install -D tailwindcss postcss autoprefixer
 -npx tailwindcss init -p
