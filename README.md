@@ -13,7 +13,7 @@ cd kishan-test-app
 Then install the dependencies and start the development server:
 
 # Dependencies
-install TAilwind for nextjs using this command lines:
+install Tailwind for nextjs using this command lines:
 -npm install -D tailwindcss postcss autoprefixer
 -npx tailwindcss init -p
 -Configure your template paths
