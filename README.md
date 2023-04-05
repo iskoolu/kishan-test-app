@@ -48,15 +48,14 @@ project
 │   │   ├── Layout.js   
 │   │   ├── Navbar.js   
 │   │   └── Services.js   │   
-    ├── pages   
+|   ├── pages   
 │   │   ├── api   
 │   │   │   └── hello.js   
 │   │   ├── app.js   
 │   │   ├── document.js   
 │   │   ├── Environment.js   
 │   │   ├── Faq.js   
-│   │   ├── index.js   
-│   │   └── Menu.js   
+│   │   ├── index.js     
 │   ├── styles   
 │   │   ├── global.css   
 │   │   └── home.module.css   
