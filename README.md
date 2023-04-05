@@ -48,7 +48,7 @@ project
 │   │   ├── Layout.js   
 │   │   ├── Navbar.js   
 │   │   └── Services.js   │   
-│   ├── pages   
+   ├── pages   
 │   │   ├── api   
 │   │   │   └── hello.js   
 │   │   ├── app.js   
