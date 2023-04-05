@@ -30,7 +30,7 @@ function Faq() {
                         }
                               aria-controls="accordian-content"
                               id="panel1a-header">
-                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[22px] " >What is Node Army?</Typography>
+                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[15px] " >What is Node Army?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                               <Typography className="text-textwhite text-[19px]">
@@ -48,7 +48,7 @@ function Faq() {
                         }
                               aria-controls="accordian-content"
                               id="panel1a-header">
-                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[12px] flex-shrink-0 md:text-[8px]" >How can I benefit from using Node Army?</Typography>
+                              <Typography className="font-bold whitespace-nowrap text-textwhite text-[15px]" >How can I benefit from using Node Army?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                               <Typography className="text-textwhite text-[19px]">
@@ -67,10 +67,10 @@ function Faq() {
                         }
                               aria-controls="accordian-content"
                               id="panel1a-header">
-                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[22px] " >Do I need technical expertise to use Node Army?</Typography>
+                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[14.3px] " >Do I need technical expertise to use Node Army?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                              <Typography className="text-textwhite text-[19px]">
+                              <Typography className="text-textwhite text-[16px]">
                                     Node Army is a cloud-native blockchain infrastructure provider that empowers individuals and businesses to deploy and manage nodes, even without technical expertise. Our infrastructure is secure and scalable, with advanced features such as co-nodes, compounding, and managed nodes.
                               </Typography>
                         </AccordionDetails>
@@ -86,7 +86,7 @@ function Faq() {
                         }
                               aria-controls="accordian-content"
                               id="panel1a-header">
-                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[22px] " >What kind of support does Node Army provide?</Typography>
+                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[14.6px] " >What kind of support does Node Army provide?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                               <Typography className="text-textwhite text-[19px]">
@@ -105,7 +105,7 @@ function Faq() {
                         }
                               aria-controls="accordian-content"
                               id="panel1a-header">
-                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[22px] " >How do I get started with Node Army?</Typography>
+                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[15px] " >How do I get started with Node Army?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                               <Typography className="text-textwhite text-[19px]">
@@ -124,7 +124,7 @@ function Faq() {
                         }
                               aria-controls="accordian-content"
                               id="panel1a-header">
-                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[22px] " >How will I be rewarded by using Node Army?</Typography>
+                              <Typography className="font-bold  whitespace-nowrap text-textwhite text-[15px] " >How will I be rewarded by using Node Army?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                               <Typography className="text-textwhite text-[19px]">
