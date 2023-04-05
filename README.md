@@ -47,7 +47,7 @@ project
 │   │   ├── Footer.js   
 │   │   ├── Layout.js   
 │   │   ├── Navbar.js   
-│   │   └── Services.js   │   
+│   │   └── Services.js      
 |   ├── pages   
 │   │   ├── api   
 │   │   │   └── hello.js   
