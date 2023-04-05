@@ -12,9 +12,14 @@ function Navbar() {
       const router = useRouter()
       const [dropdownOpen, setDropdownOpen] = useState(false);
 
+
       const handleDropdownOpen = () => {
             setDropdownOpen(true);
       };
+      const handleClose = () => {
+            setDropdownOpen(false);
+      };
+
 
       const dropdownRef = useRef(null);
 
@@ -23,6 +28,7 @@ function Navbar() {
                   setDropdownOpen(false);
             }
       };
+
 
       useEffect(() => {
             document.addEventListener('click', handleOutsideClick, true);
@@ -52,7 +58,7 @@ function Navbar() {
                         >
                               <span>Dropdown</span>
                               <svg
-                                    className="w-4 h-4 ml-2"
+                                    className="w-8 h-4 ml-2"
                                     viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
@@ -68,14 +74,20 @@ function Navbar() {
                         </MenuOpenIcon>
                         {dropdownOpen && (
                               <div className="absolute right-0 mt-2 py-2 w-48 bg-white rounded-md shadow-lg z-10 bg-textwhite">
-                                    <Link href="/" legacyBehavior>
-                                          <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 text-lightblack">Services</a>
+                                    <Link href="/" legacyBehavior >
+                                          <a onClick={handleClose} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 text-lightblack">Services</a>
                                     </Link>
                                     <Link href="/Environment" legacyBehavior>
-                                          <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 text-lightblack">Environment Statement</a>
+                                          <a onClick={handleClose} className="block px-4 py-2 text-sm text-gray-700 whitespace-nowrap hover:bg-gray-100 hover:text-gray-600 text-lightblack">Environment Statement</a>
                                     </Link>
                                     <Link href="/Faq" legacyBehavior>
-                                          <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 text-lightblack">FAQ</a>
+                                          <a onClick={handleClose} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 text-lightblack">FAQ</a>
+                                    </Link>
+                                    <Link href="/Nft" legacyBehavior>
+                                          <a onClick={handleClose} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 text-lightblack">Nft</a>
+                                    </Link>
+                                    <Link href="/Projects" legacyBehavior>
+                                          <a onClick={handleClose} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 text-lightblack">Projects</a>
                                     </Link>
                               </div>
                         )

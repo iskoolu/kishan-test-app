@@ -4,7 +4,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import RemoveIcon from '@mui/icons-material/Remove';
 import AddIcon from '@mui/icons-material/Add';
-import React, { useState } from "react"
+import React from "react"
 
 function Faq() {
 
