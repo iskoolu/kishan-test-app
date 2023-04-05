@@ -47,9 +47,7 @@ project
 │   │   ├── Footer.js   
 │   │   ├── Layout.js   
 │   │   ├── Navbar.js   
-│   │   └── Services.js   
-│   ├── customhook   
-│   │   └── useOutsideClick.js   
+│   │   └── Services.js   │   
 │   ├── pages   
 │   │   ├── api   
 │   │   │   └── hello.js   
@@ -77,6 +75,5 @@ From this library we have used Accordion and MenuOpen Icon For this Project and 
 
 These are the Components and Style that have been used to create the Modal App using Next.js 
 
-`useOutsideClick.js` is used for detect the click event outside of the element. Add ref with useRef hook to which element is wants to detect and pass the function which is what action to be perform if event is detected.
-Deploying the App
+# Deploying the App
 To deploy the app, you can use a service like Vercel, which supports Next.js out of the box. Simply connect your GitHub repository to Vercel and the app will be automatically deployed when you push changes to the repository.
